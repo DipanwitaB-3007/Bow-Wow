@@ -20,8 +20,21 @@ h3 {
   margin-top: 1rem;
 }
 
+h4 {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
 p {
   color: #8f8f8f;
+}
+
+strong {
+    font-weight: 600;
 }
 
 #title {
@@ -67,7 +80,7 @@ nav {
 .title-image {
   transform: rotate(20deg);
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-left: 2rem;
 }
 
@@ -75,10 +88,12 @@ nav {
 #features {
   text-align: center;
   padding: 7% 10%;
+  background-color: #fff;
 }
 
 .icon {
   color: #c94c4c;
+  cursor: pointer;
 }
 
 .icon:hover {
@@ -115,4 +130,52 @@ nav {
 .press-logo {
   width: 15%;
   margin: 10px 20px 5px;
+}
+
+/* pricing */
+#pricing {
+    padding: 3% 8%;
+}
+
+.pricing-col {
+    padding: 3% 1%;
+}
+
+.card {
+    min-height: 400px;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    min-height: 270px;
+    max-height: 270px;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-text {
+    margin-top: 1rem;
+}
+.card-footer {
+    text-align: center;
+    background-color: #fff;
+}
+
+#cta {
+    background-color: #c70039;
+    color: #fff;
+    text-align: center;
+    padding: 1% 7%;
+}
+
+#footer {
+    background-color: #c70039;
+    color: #fff;
+    text-align: center;
+    font-size: .7rem;
+    padding: 1% 10%;
 }
