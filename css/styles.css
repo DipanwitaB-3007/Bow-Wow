@@ -22,7 +22,9 @@ h3 {
 
 h4 {
     margin-top: 3rem;
-    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-size: 1.20rem;
+    font-weight: 600;
 }
 
 h5 {
@@ -142,14 +144,14 @@ nav {
 }
 
 .card {
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 390px;
+    max-height: 390px;
     margin-bottom: 20px;
 }
 
 .card-body {
-    min-height: 270px;
-    max-height: 270px;
+    min-height: 262px;
+    max-height: 262px;
 }
 
 .card-header {
@@ -172,10 +174,65 @@ nav {
     padding: 1% 7%;
 }
 
+.footer-button {
+    font-size: 1.2rem;
+    margin: 5% 0;
+}
+
+.contact-container {
+    font-size: 1rem;
+}
+
+.contact-info {
+    color: #fff;
+}
+
+.social-contact {
+    color: #fff;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.social-contact:hover {
+    color: #fff;
+}
+
 #footer {
     background-color: #c70039;
     color: #fff;
     text-align: center;
     font-size: .7rem;
     padding: 1% 10%;
+}
+
+@media (max-width: 1000px) {
+    .title-image {
+        transform: rotate(0);
+        margin: 2rem 0;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        min-height: 330px;
+        max-height: 330px;
+    }
+
+    .card-body {
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+    .contact-container {
+        font-size: 0.9rem;
+    }
+
+    .footer-button {
+        font-size: 1rem;
+        margin: 2% 0;
+    }
 }
