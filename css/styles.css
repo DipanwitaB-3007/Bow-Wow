@@ -187,6 +187,10 @@ nav {
     color: #fff;
 }
 
+.social-container {
+    margin-top: 2rem;
+}
+
 .social-contact {
     color: #fff;
     cursor: pointer;
@@ -196,8 +200,8 @@ nav {
 .social-contact:hover {
     color: #fff;
 }
-
 #footer {
+
     background-color: #c70039;
     color: #fff;
     text-align: center;

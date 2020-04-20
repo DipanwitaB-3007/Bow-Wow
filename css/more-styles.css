@@ -1,0 +1,38 @@
+.container {
+    min-height: 390px;
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#footer {
+    background-color: #c70039;
+    color: #fff;
+    text-align: center;
+    padding: 1% 10%;
+    font-size: 1rem;
+}
+
+.footer-button  {
+    margin: 2% 0;
+}
+
+.contact-info {
+    color: #fff;
+    display: inline;
+    padding: 2rem;
+}
+
+.social-contact {
+    color: #fff;
+    cursor: pointer;
+    padding: 1%;
+}
+
+.social-contact:hover {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 0.7rem;
+}
