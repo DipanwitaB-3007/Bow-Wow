@@ -1,5 +1,5 @@
 .container {
-    min-height: 390px;
+    min-height: 360px;
     padding: 5% 10%;
     text-align: center;
     background-color: #fff;
@@ -9,12 +9,12 @@
     background-color: #c70039;
     color: #fff;
     text-align: center;
-    padding: 1% 10%;
+    padding: 1.5% 10%;
     font-size: 1rem;
 }
 
 .footer-button  {
-    margin: 2% 0;
+    margin: 1.5rem 0;
 }
 
 .contact-info {
@@ -35,4 +35,11 @@
 
 .copyright {
     font-size: 0.7rem;
+}
+
+@media (max-width: 600px) {
+    .contact-info {
+        display: block;
+        padding: 0;
+    }
 }
